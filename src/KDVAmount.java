@@ -9,7 +9,7 @@ public class KDVAmount {
 
         System.out.println("What is the amount? = ");
         amount = input.nextDouble();
-        
+
         if((amount <= 1000) && (amount >= 0)){
             KDVRate = 0.18;
         }else
